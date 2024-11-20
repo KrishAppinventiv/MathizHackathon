@@ -9,7 +9,7 @@ import PagerView from "react-native-pager-view";
 
 import { View } from "react-native";
 import { shuffleArray } from "./shuffle";
-import { StatQuestions } from "../../data/questiondata";
+import { StatQuestions ,IntegerQuestions} from "../../data/questiondata";
 import { vh } from "../../theme/dimensions";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { colors } from "../../theme";
@@ -36,7 +36,7 @@ export function TestScreen() {
                  
                 return StatQuestions
                 case 'Integer Quiz':
-               
+                 return IntegerQuestions
                 
                 default:
                   
